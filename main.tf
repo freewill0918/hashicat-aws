@@ -196,6 +196,6 @@ resource aws_key_pair "hashicat" {
 module "vpc" {
   source  = "app.terraform.io/freewill-training/vpc/aws"
   version = "2.44.0"
-  cidr = "10.0.0.0/16"
+  cidr_block = "10.0.0.0/16"
 }
   
